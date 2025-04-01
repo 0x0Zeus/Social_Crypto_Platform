@@ -39,6 +39,8 @@ export default function CryptoTable() {
     }
 
     fetchCoins()
+    const intervalId = setInterval(fetchCoins, 30000)
+    return () => clearInterval(intervalId)
   }, [])
 
   return (
