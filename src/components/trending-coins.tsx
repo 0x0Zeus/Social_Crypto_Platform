@@ -40,6 +40,9 @@ export default function TrendingCoins() {
     }
 
     fetchTrendingCoins()
+
+    const intervalId = setInterval(fetchTrendingCoins, 30000)
+    return () => clearInterval(intervalId)
   }, [])
 
   return (

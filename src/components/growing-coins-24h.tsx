@@ -40,6 +40,8 @@ export default function GrowingCoins24h() {
     }
 
     fetchGrowingCoins()
+    const intervalId = setInterval(fetchGrowingCoins, 30000)
+    return () => clearInterval(intervalId)
   }, [])
 
   return (

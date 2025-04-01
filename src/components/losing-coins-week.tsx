@@ -40,6 +40,9 @@ export default function LosingCoinsWeek() {
     }
 
     fetchLosingCoins()
+
+    const intervalId = setInterval(fetchLosingCoins, 30000)
+    return () => clearInterval(intervalId)
   }, [])
 
   return (
