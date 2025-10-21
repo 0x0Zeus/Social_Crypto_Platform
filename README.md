@@ -4,7 +4,7 @@ A modern, real-time cryptocurrency analytics platform that combines market data 
 
 ## 📱 Screenshots
 
-![Crypto Social Insights Platform](/public/social-crypto-platform.webp)
+![Crypto Social Insights Platform](https://raw.githubusercontent.com/0x0Zeus/Social_Crypto_Platform/master/public/social-crypto-platform.webp)
 *Crypto Social Insights Platform - Real-time cryptocurrency analytics dashboard*
 
 ## ✨ Features
